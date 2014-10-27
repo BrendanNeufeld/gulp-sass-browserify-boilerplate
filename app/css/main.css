@@ -1,8 +1,26 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brendan\/Documents\/Projects\/Baldwin\/app\/css\/main\.scss}line{font-family:\000033}}
 body, * {
   font-family: sans-serif;
-  background: red;
+  background: white;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brendan\/Documents\/Projects\/Baldwin\/app\/css\/main\.scss}line{font-family:\000038}}
 .container {
   width: 400px;
   height: auto;
@@ -13,9 +31,13 @@ body, * {
   margin: 0 auto;
   padding: 35px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brendan\/Documents\/Projects\/Baldwin\/app\/css\/main\.scss}line{font-family:\0000313}}
 .container * {
   background: red;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/brendan\/Documents\/Projects\/Baldwin\/app\/css\/main\.scss}line{font-family:\0000321}}
 .container h1 {
   text-align: left;
 }
+
+/*# sourceMappingURL=main.css.map */

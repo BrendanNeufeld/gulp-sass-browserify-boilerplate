@@ -1,7 +1,12 @@
-/**
- * Created by brendan on 2014-10-22.
- */
-var testFn = function(){
-	alert('poopyyy pants lsdkjfsfads sfsdf');
-}
-testFn();
+
+'use strict';
+
+require('domready')(function () {
+	var App = require('./app.js');
+
+	var app = new App();
+	app.init();
+
+
+	//app.beep();
+})

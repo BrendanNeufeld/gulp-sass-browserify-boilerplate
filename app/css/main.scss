@@ -1,7 +1,10 @@
+@import "_variables";
+
 body, * {
   font-family: sans-serif;
-  background: red;
+  background: white;
 }
+
 .container {
   width: 400px;
   height: auto;
@@ -19,5 +22,3 @@ body, * {
     text-align: left;
   }
 }
-
-$goo: #eeccff;

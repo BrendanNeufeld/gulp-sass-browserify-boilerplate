@@ -1,0 +1,76 @@
+// Animation Icons
+// --------------------------
+
+.#{$icons-prefix}spin {
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+  -o-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+}
+
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(359deg); }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); }
+}
+@-o-keyframes spin {
+  0% { -o-transform: rotate(0deg); }
+  100% { -o-transform: rotate(359deg); }
+}
+@-ms-keyframes spin {
+  0% { -ms-transform: rotate(0deg); }
+  100% { -ms-transform: rotate(359deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+
+.#{$icons-prefix}loading-a,
+.#{$icons-prefix}loading-b,
+.#{$icons-prefix}loading-c,
+.#{$icons-prefix}loading-d,
+.#{$icons-prefix}looping,
+.#{$icons-prefix}refreshing,
+.#{$icons-prefix}ios7-reloading {
+  @extend .ion;
+  @extend .#{$icons-prefix}spin;
+}
+
+.#{$icons-prefix}loading-a {
+  -webkit-animation-timing-function: steps(8, start);
+  -moz-animation-timing-function: steps(8, start);
+  animation-timing-function: steps(8, start);
+}
+
+.#{$icons-prefix}loading-a:before { 
+  @extend .#{$icons-prefix}load-a:before;
+}
+
+.#{$icons-prefix}loading-b:before { 
+  @extend .#{$icons-prefix}load-b:before;
+}
+
+.#{$icons-prefix}loading-c:before { 
+  @extend .#{$icons-prefix}load-c:before;
+}
+
+.#{$icons-prefix}loading-d:before { 
+  @extend .#{$icons-prefix}load-d:before;
+}
+
+.#{$icons-prefix}looping:before { 
+  @extend .#{$icons-prefix}loop:before;
+}
+
+.#{$icons-prefix}refreshing:before { 
+  @extend .#{$icons-prefix}refresh:before;
+}
+
+.#{$icons-prefix}ios7-reloading:before { 
+  @extend .#{$icons-prefix}ios7-reload:before;
+}

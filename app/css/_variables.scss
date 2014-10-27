@@ -1,0 +1,102 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+*/
+
+
+$font-path: "./fonts" !default;
+$icons-font-path: "./fonts" !default;
+$icons-font-family: "Ionicons" !default;
+$icons-prefix: icon- !default;
+
+// Colors
+// -------------------------------
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #4a87ee !default;
+$calm:                            #43cee6 !default;
+$balanced:                        #66cc33 !default;
+$energized:                       #f0b840 !default;
+$assertive:                       #ef4e3a !default;
+$royal:                           #8a6de9 !default;
+$dark:                            #444 !default;
+
+
+// Base
+// -------------------------------
+
+$font-family-sans-serif:          "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+$font-family-light-sans-serif:    "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+$font-family-serif:               Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:           Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$font-family-base:                $font-family-sans-serif !default;
+$font-size-base:                  14px !default;
+$font-size-large:                 18px !default;
+$font-size-small:                 11px !default;
+
+$line-height-base:                1.428571429 !default; // 20/14
+$line-height-computed:            floor($font-size-base * $line-height-base) !default; // ~20px
+$line-height-large:               1.33 !default;
+$line-height-small:               1.5 !default;
+
+$headings-font-family:            $font-family-base !default;
+$headings-font-weight:            500 !default;
+$headings-line-height:            1.2 !default;
+
+$base-background-color:           #fff !default;
+$base-color:                      #000 !default;
+
+$link-color:                      $positive !default;
+$link-hover-color:                darken($link-color, 15%) !default;
+
+$content-padding:                 10px !default;
+
+$padding-base-vertical:           6px !default;
+$padding-base-horizontal:         12px !default;
+
+$padding-large-vertical:          10px !default;
+$padding-large-horizontal:        16px !default;
+
+$padding-small-vertical:          5px !default;
+$padding-small-horizontal:        10px !default;
+
+$border-radius-base:              4px !default;
+$border-radius-large:             6px !default;
+$border-radius-small:             3px !default;
+
+// Lists
+// -------------------------------
+
+$list-header-bg:                  transparent !default;
+$list-header-color:               #222 !default;
+$list-header-padding:             5px 15px !default;
+$list-header-margin-top:          20px !default;
+
+
+// Cards
+// -------------------------------
+
+$card-header-bg:                  #F5F5F5 !default;
+$card-body-bg:                    #fff !default;
+$card-footer-bg:                  #F5F5F5 !default;
+
+$card-padding:                    10px !default;
+$card-border-width:               1px !default;
+
+$card-border-color:               #ccc !default;
+$card-border-radius:              2px !default;
+
